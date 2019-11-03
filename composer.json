@@ -1,0 +1,22 @@
+{
+    "name": "alissonbora/image",
+    "type": "library",
+    "description": "A simple PHP class for image manipulation.",
+    "keywords": ["image", "image manipulation", "gd"],
+    "homepage": "http://github.com/alissonbora/php-image",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alisson Bora",
+            "email": "alissonbora.94@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlissonBora\\": "src/"
+        }
+    }
+}
